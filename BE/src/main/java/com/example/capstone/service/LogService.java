@@ -1,16 +1,15 @@
 package com.example.capstone.service;
 
-import com.example.capstone.entity.DeviceEntity;
-import com.example.capstone.entity.LogAverageEntity;
+import com.example.capstone.entity.CalendarEntity;
 import com.example.capstone.entity.LogEntity;
+import com.example.capstone.entity.LogId;
 import com.example.capstone.repository.DeviceRepository;
-import com.example.capstone.repository.LogAverageRepository;
+import com.example.capstone.repository.CalendarRepository;
 import com.example.capstone.repository.LogRepository;
 import lombok.Setter;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.Column;
 import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -21,9 +20,9 @@ import java.util.ArrayList;
 public class LogService {
     private final LogRepository logRepository;
     private final DeviceRepository deviceRepository;
-    private final LogAverageRepository logAverageRepository;
+    private final CalendarRepository calendarRepository;
     //LogDataOutService
-    LogService(LogRepository l,DeviceRepository d, LogAverageRepository la){this.logRepository = l; this.deviceRepository = d; this.logAverageRepository=la;}
+    LogService(LogRepository l,DeviceRepository d, CalendarRepository la){this.logRepository = l; this.deviceRepository = d; this.calendarRepository =la;}
 
 
     //device id로 필요한 로그를 전부 불러옴.
@@ -42,7 +41,7 @@ public class LogService {
     }
 
     // 로그 평균값 저장하는 매소드
-    @Scheduled(cron = "00 55 23 * * ?")
+    @Scheduled(cron = "00 59 23 * * ?")
     @Transactional
     public void SaveAve(){
         //모든 device들의 Log를 불러와서 평균값 낸 뒤, 그 값들을 이용해서 LogAverageEntity를 생성, 저장함.
@@ -71,19 +70,26 @@ public class LogService {
             temperature_ave /= logList.size();
             soilMoisture_ave /= logList.size();
 
-//            System.out.println(humidity_ave);
-//            System.out.println(temperature_ave);
-//            System.out.println(soilMoisture_ave);
+            LocalDateTime a = LocalDateTime.now();
+            String date;
+            if(a.getMonthValue() < 10){
+                date = a.getYear() +"-"+"0"+ a.getMonthValue() + "-" + a.getDayOfMonth();
+            }
+            else{
+                date = a.getYear() +"-"+ a.getMonthValue() + "-" + a.getDayOfMonth();
 
-            LogAverageEntity e = new LogAverageEntity();
+            }
+
+            CalendarEntity e = new CalendarEntity();
             e.setHumidity(humidity_ave);
             e.setTemperature(temperature_ave);
             e.setSoilMoisture(soilMoisture_ave);
-            e.setDeviceId(deviceIdList.get(i));
-            e.setLogTime(LocalDateTime.now());
+
+            e.setId(new LogId(date,deviceIdList.get(i)));
+            e.setContent("");
 
             // 새로운 LogAverageEntity를 생성 , 저장
-            logAverageRepository.save(e);
+            calendarRepository.save(e);
         }
     }
 }

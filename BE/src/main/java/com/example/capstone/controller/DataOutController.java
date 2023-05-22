@@ -3,6 +3,8 @@ package com.example.capstone.controller;
 
 import com.example.capstone.dto.AverageLogDto;
 import com.example.capstone.dto.LogDto;
+import com.example.capstone.entity.CalendarDto;
+import com.example.capstone.service.CalendarService;
 import com.example.capstone.service.dataout.SoilLogService;
 import com.example.capstone.service.dataout.TemperatureLogService;
 import com.example.capstone.service.dataout.TotalLogService;
@@ -33,16 +35,12 @@ import java.util.Base64;
 @RequestMapping("/dataout")
 @Getter
 public class DataOutController {
-    private final HumidityLogService humidityLogService;
-    private final TemperatureLogService temperatureLogService;
-    private final SoilLogService soilLogService;
     private final TotalLogService totalLogService;
+    private final CalendarService calendarService;
 
-    public DataOutController(HumidityLogService humidityLogService, TemperatureLogService temperatureLogService, SoilLogService soilLogService,TotalLogService totalLogService) {
-        this.humidityLogService = humidityLogService;
-        this.temperatureLogService = temperatureLogService;
-        this.soilLogService = soilLogService;
+    public DataOutController(TotalLogService totalLogService, CalendarService calendarService) {
         this.totalLogService = totalLogService;
+        this.calendarService = calendarService;
     }
 
     @GetMapping(value = "/image", produces = MediaType.IMAGE_JPEG_VALUE)
@@ -100,27 +98,44 @@ public class DataOutController {
 
 
     //"/home/ubuntu/Image/"
-    @GetMapping("/humidity")
-    public ArrayList<DataItem> getHumidity(@RequestParam int deviceId){
-        ArrayList<DataItem> data = humidityLogService.LogEntityToRealTimeData(deviceId);
-        return data;
-    }
-
-    @GetMapping("/temperature")
-    public ArrayList<DataItem> getTemperature(@RequestParam int deviceId){
-        ArrayList<DataItem> data = temperatureLogService.LogEntityToRealTimeData(deviceId);
-        return data;
-    }
-
-    @GetMapping("/soil")
-    public ArrayList<DataItem> getSoil(@RequestParam int deviceId){
-        ArrayList<DataItem> data = soilLogService.LogEntityToRealTimeData(deviceId);
-        return data;
-    }
+//    @GetMapping("/humidity")
+//    public ArrayList<DataItem> getHumidity(@RequestParam int deviceId){
+//        ArrayList<DataItem> data = humidityLogService.LogEntityToRealTimeData(deviceId);
+//        return data;
+//    }
+//
+//    @GetMapping("/temperature")
+//    public ArrayList<DataItem> getTemperature(@RequestParam int deviceId){
+//        ArrayList<DataItem> data = temperatureLogService.LogEntityToRealTimeData(deviceId);
+//        return data;
+//    }
+//
+//    @GetMapping("/soil")
+//    public ArrayList<DataItem> getSoil(@RequestParam int deviceId){
+//        ArrayList<DataItem> data = soilLogService.LogEntityToRealTimeData(deviceId);
+//        return data;
+//    }
     @GetMapping("/total")
-    public ArrayList<LogDto> getTotal(@RequestParam int deviceId){
+    public ArrayList<LogDto> getTotal(@RequestParam int deviceId) {
         ArrayList<LogDto> data = totalLogService.getAve(deviceId);
         return data;
     }
+
+    @GetMapping("/marked")
+    public ArrayList<String> getMarkedDate(@RequestParam int deviceId, String date){
+        // deviceId와 date("yyyy-mm")를 가지고 Calender_object 테이블에 접근, date에 해당하는 row들의 date("yyyy-mm-dd")를 불러옴
+        return(calendarService.getMarkedDate(deviceId,date));
+    }
+
+    @GetMapping("/record")
+    public CalendarDto getDate(int deviceId, String date){
+        return(calendarService.getCalendarDto(deviceId,date));
+    }
+    @GetMapping("/recent")
+    public LogDto getRecent(@RequestParam int deviceId){
+        return(totalLogService.getRecentRecord(deviceId));
+    }
+
+
 }
 

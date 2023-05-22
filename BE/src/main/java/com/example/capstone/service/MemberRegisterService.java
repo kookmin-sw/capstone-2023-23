@@ -23,7 +23,7 @@ public class MemberRegisterService {
             return "Email already exists";
         }
 
-        MemberEntity e = new MemberEntity(newUser.getEmail(), newUser.getPw(), newUser.getFirstname(), newUser.getLastname());
+        MemberEntity e = new MemberEntity(newUser.getEmail(), newUser.getPw(), newUser.getFirstname(), newUser.getLastname(),newUser.getToken());
         memberRepository.save(e);
         return "success";
     }
