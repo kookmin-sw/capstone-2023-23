@@ -3,6 +3,7 @@ package com.example.capstone.controller;
 import com.example.capstone.dto.DeviceDto;
 import com.example.capstone.service.DeviceRegisterService;
 import com.example.capstone.service.DeviceManageService;
+import com.example.capstone.service.PushNotificationService;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.web.bind.annotation.*;
@@ -15,10 +16,12 @@ public class DeviceController {
 
     private final DeviceRegisterService deviceRegisterService;
     private final DeviceManageService deviceManageService;
+    private final PushNotificationService pushNotificationService;
 
-    DeviceController(DeviceRegisterService d, DeviceManageService s){
+    DeviceController(DeviceRegisterService d, DeviceManageService s , PushNotificationService p){
         this.deviceRegisterService = d;
         this.deviceManageService = s;
+        this.pushNotificationService = p;
     }
 
     // 새로운 부스를 등록함.
@@ -63,6 +66,11 @@ public class DeviceController {
     public void TurnOnLight(@RequestParam int deviceId){
         deviceManageService.SetLight(deviceId);
     }
+    @GetMapping("/push/anomal")
+    public void Pushnotification(){
+        pushNotificationService.sendPushNotification("");
+    }
+
 }
 
 

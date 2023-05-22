@@ -16,11 +16,12 @@ import javax.persistence.*;
 @Entity(name = "member")
 public class MemberEntity extends BaseTimeEntity{
 
-    public  MemberEntity(String email, String pw, String firstname, String lastname){
+    public  MemberEntity(String email, String pw, String firstname, String lastname,String token){
         this.email = email;
         this.pw = pw;
         this.firstname = firstname;
         this.lastname = lastname;
+        this.token = token;
     }
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -33,6 +34,8 @@ public class MemberEntity extends BaseTimeEntity{
     private String firstname;
     @Column
     private String lastname;
+    @Column
+    private String token;
 
     public Member EntityToMember(){
         Member rtn = new Member(this.email,this.pw,this.firstname,this.lastname);

@@ -1,6 +1,10 @@
 package com.example.capstone.controller;
 
+import com.example.capstone.entity.CalendarEntity;
 import com.example.capstone.entity.LogEntity;
+import com.example.capstone.entity.LogId;
+import com.example.capstone.repository.CalendarRepository;
+import com.example.capstone.service.CalendarService;
 import com.example.capstone.service.datain.ImageInService;
 import com.example.capstone.service.datain.LogSaveService;
 import com.google.type.DateTime;
@@ -18,10 +22,12 @@ import java.time.LocalDateTime;
 public class DataInController {
     public final ImageInService imageInService;
     public final LogSaveService logSaveService;
+    public final CalendarService s;
 
-    public DataInController(ImageInService ii,LogSaveService logSaveService){
+    public DataInController(ImageInService ii,LogSaveService logSaveService, CalendarService s){
         this.imageInService = ii;
         this.logSaveService = logSaveService;
+        this.s = s;
 
     }
 
@@ -77,6 +83,11 @@ public class DataInController {
                 System.out.println(e);
                 return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Failed to save data.");
             }
+        }
+        @PatchMapping("/content")
+        public String setContent(@RequestParam int deviceId , String date , String content){
+            s.PatchDate(deviceId,date,content);
+            return (content);
         }
 }
 

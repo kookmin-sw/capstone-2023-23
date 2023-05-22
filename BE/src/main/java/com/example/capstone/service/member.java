@@ -13,5 +13,6 @@ public class member {
     private String pw;
     private String firstname;
     private String lastname;
+    private String token;
 
 }
