@@ -22,6 +22,28 @@ import {
 } from '../store/store';
 import { useDispatch, useSelector } from 'react-redux';
 
+const Title = styled.h4`
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.87);
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 3rem;
+`;
+const PlainText = styled.p`
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.1rem;
+  color: #234d44;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+`;
+
 const SelectBtn = styled.button`
   display: block;
   text-align: center;
@@ -34,14 +56,75 @@ const SelectBtn = styled.button`
   width: fit-content;
   padding: 0.5rem 2rem;
 `;
+const Btn = styled.button`
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  width: fit-content;
+  padding: 0.5rem 2rem;
+`;
+const CustomBtn = styled(Btn)`
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
+  color: rgb(50, 110, 98);
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 5px;
+  border: none;
+
+  background: rgb(50, 110, 98, 0.5);
+  color: white;
+  font-weight: 700;
+
+  &:hover {
+    box-shadow: 0 0 11px rgba(0, 0, 0, 1);
+  }
+  margin-right: 6rem;
+
+  justify-content: center;
+`;
+const CustomBtn2 = styled(Btn)`
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
+  color: rgb(50, 110, 98);
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 5px;
+  border: none;
+
+  background: rgb(249, 186, 177);
+  color: white;
+  font-weight: 700;
+
+  &:hover {
+    box-shadow: 0 0 11px rgba(0, 0, 0, 1);
+  }
+`;
+const BtnGroup = styled.div`
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  margin: 1rem;
+`;
+
 const DeleteBtn = styled(SelectBtn)`
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
   border-radius: 0.5rem;
-  border: 3px solid rgb(221, 74, 57);
-  background: rgb(221, 74, 57);
+  border: 3px solid rgb(249, 186, 177);
+  background: rgb(249, 186, 177);
   color: white;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0.3rem 0.5rem 1rem 0.5rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+  display: flex;
 `;
 
 const style = {
@@ -49,15 +132,16 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 400,
+  borderRadius: '10px',
+  width: 450,
   bgcolor: 'background.paper',
-  border: '2px solid #000',
+  border: '10px solid rgb(50,110,98,0.5)',
   boxShadow: 24,
   p: 4,
   display: 'flex',
   flexDirection: 'column',
-  alignItems: 'center', // 추가
-  justifyContent: 'center', // 추가
+  alignItems: 'center',
+  justifyContent: 'center',
 };
 
 export default function DeleteModalPlant(props) {
@@ -109,7 +193,7 @@ export default function DeleteModalPlant(props) {
 
   return (
     <div>
-      <DeleteBtn onClick={handleOpen}>delete</DeleteBtn>
+      <DeleteBtn onClick={handleOpen}>reset</DeleteBtn>
 
       <Modal
         open={open}
@@ -118,12 +202,12 @@ export default function DeleteModalPlant(props) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h5" component="h2">
+          <Title id="modal-modal-title" variant="h5" component="h2">
             Delete my plant
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 3 }}>
-            plant를 지우시겠습니까?
-          </Typography>
+          </Title>
+          <PlainText id="modal-modal-description" sx={{ mt: 3 }}>
+            Are you sure you want to reset the plant?
+          </PlainText>
 
           <Box
             component="form"
@@ -137,7 +221,7 @@ export default function DeleteModalPlant(props) {
               marginTop: 4,
             }}
           >
-            <Button
+            <CustomBtn
               type="submit"
               variant="contained"
               size="large"
@@ -149,9 +233,9 @@ export default function DeleteModalPlant(props) {
                 fontSize: 20,
               }}
             >
-              확인
-            </Button>
-            <Button
+              OK
+            </CustomBtn>
+            <CustomBtn2
               variant="contained"
               size="large"
               color="error"
@@ -163,8 +247,8 @@ export default function DeleteModalPlant(props) {
               }}
               onClick={handleClose}
             >
-              취소
-            </Button>
+              Cancel
+            </CustomBtn2>
           </Box>
         </Box>
       </Modal>

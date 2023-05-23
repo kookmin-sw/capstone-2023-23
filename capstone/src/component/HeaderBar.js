@@ -9,11 +9,14 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
+import styled from 'styled-components';
+import { useNavigate } from 'react-router-dom';
 
 //Drawer
 import TemporaryDrawer from './Drawer';
 
 export default function HeaderBar() {
+  let navigate = useNavigate();
   const [anchorEl, setAnchorEl] = React.useState(null);
 
   const handleMenu = (event) => {
@@ -26,7 +29,13 @@ export default function HeaderBar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{ backgroundColor: 'white' }}>
+      <AppBar
+        position="static"
+        sx={{
+          backgroundColor: 'rgb(254,248,247)',
+          boxShadow: '0 2px 4px rgba(0, 0, 0, 0.3)',
+        }}
+      >
         <Toolbar>
           <TemporaryDrawer></TemporaryDrawer>
 
@@ -34,12 +43,20 @@ export default function HeaderBar() {
             // variant="h1"
             component="div"
             sx={{
+              letterSpacing: '0.3rem',
+              fontFamily: 'Playfair Display',
               flexGrow: 1,
-              fontWeight: 600,
-              fontSize: 29,
-              letterSpacing: '.3rem',
+              fontWeight: 900, // 굵은 폰트로 설정
+              fontSize: '3rem', // 원하는 크기로 설정
+
               paddingLeft: '85px',
-              color: '#486284',
+              paddingTop: '5px',
+              paddingBottom: '5px',
+
+              color: 'rgb(50,110,98)',
+            }}
+            onClick={() => {
+              navigate('/');
             }}
           >
             Chorok-i
@@ -49,7 +66,7 @@ export default function HeaderBar() {
             <IconButton>
               <NotificationsIcon
                 sx={{
-                  color: '#7B95B7',
+                  color: 'rgb(50,110,98)',
                   fontSize: 45,
                   align: 'center',
                   p: 0.5,
@@ -71,7 +88,7 @@ export default function HeaderBar() {
             >
               <AccountCircle
                 sx={{
-                  color: '#7B95B7',
+                  color: 'rgb(50,110,98)',
                   fontSize: 50,
                   align: 'center',
                   p: 0.5,

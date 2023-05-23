@@ -48,7 +48,7 @@ const BoothRoot = styled.div`
   justify-content: center;
   align-items: center;
   align-content: center;
-  height: 6s0%;
+  height: 100%;
 `;
 const BoothContainer = styled.div`
   display: grid;
@@ -61,19 +61,20 @@ const BoothContainer = styled.div`
   margin: 0 auto;
   overflow: auto;
   width: 100%;
-  height: 100%;
+  height: 690px;
   flex-shrink: 0;
+
+  margin-bottom: 1.5rem;
 `;
 const PlainText = styled.p`
   margin: 0 auto;
-  padding: 0rem 1rem;
   font-size: 1.5rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(80, 112, 61);
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.2rem;
+  color: #00352c;
   width: fit-content;
   font-weight: 700;
   text-transform: uppercase;
-  border-radius: 0.3rem;
 `;
 const Underline = styled.div`
   width: 80px;
@@ -97,19 +98,23 @@ const BtnContainer = styled.div`
   align-items: right;
   align-content: right;
   width: 95%;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
 `;
 const HeadContainer = styled.div`
+  margin-top: 3rem;
   display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 function BoothSelection(props) {
   const dispatch = useDispatch();
+  const test = useSelector((state) => state.user);
 
   const [user, setUser] = useState([]);
+  console.log(user);
   const [booth, setBooth] = useState([]);
 
   //추가 or 삭제된 부스 목록 관리
@@ -133,6 +138,7 @@ function BoothSelection(props) {
         //userId로 등록된 부스 불러오기
         const url = `http://localhost:8080/device/load/all?userId=${userId}`;
         const response = await axios.get(url);
+        console.log('booth', response);
 
         setBoothList(response.data);
 
@@ -149,8 +155,7 @@ function BoothSelection(props) {
     <div>
       <BasicLayout>
         <HeadContainer>
-          <PlainText>Hello! {user[1] + ' ' + user[2]}</PlainText>
-          <Underline></Underline>
+          <PlainText>Hello! {test[2] + ' ' + test[3]}</PlainText>
         </HeadContainer>
         <BoothRoot>
           <BoothContainer>

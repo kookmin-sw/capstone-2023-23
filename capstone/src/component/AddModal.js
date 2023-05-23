@@ -17,6 +17,41 @@ import { useEffect, useState } from 'react';
 //rendering
 import Booth2 from './Booth2';
 
+const Title = styled.h4`
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.87);
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 3rem;
+`;
+const CustomInput = styled.input`
+  letter-spacing: 0.5rem;
+  font-size: 1.5rem;
+
+  background-color: #fef2f0;
+  box-sizing: content-box;
+  height: 3.5rem;
+
+  width: 100%;
+
+  border: 0;
+  &:focus {
+    outline: 2px solid rgba(72, 116, 44, 0.5);
+  }
+  margin-bottom: 2rem;
+`;
+const CustomLabel = styled.label`
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0;
+  text-align: left;
+`;
 const SelectBtn = styled.button`
   display: block;
   text-align: center;
@@ -29,13 +64,19 @@ const SelectBtn = styled.button`
 `;
 const AddBtn = styled(SelectBtn)`
   border-radius: 0.5rem;
-  border: 3px solid rgb(60, 141, 188);
-  background: rgb(60, 141, 188);
+  border: 3px solid #5b8b81;
+  background: #5b8b81;
   color: white;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0.3rem 0.5rem 1rem 0.5rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+  display: flex;
 `;
+
 const Btn = styled.button`
   display: block;
   text-align: center;
@@ -47,28 +88,53 @@ const Btn = styled.button`
   padding: 0.5rem 2rem;
 `;
 const CustomBtn = styled(Btn)`
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
+  color: rgb(50, 110, 98);
   width: 100%;
-  border: 3px solid #48742c;
-  background: #48742c;
+  height: 3.5rem;
+  border-radius: 5px;
+  border: none;
+
+  background: rgb(50, 110, 98, 0.5);
   color: white;
   font-weight: 700;
-  margin: 0.3rem 0.5rem 1rem 0.5rem;
+
   &:hover {
     box-shadow: 0 0 11px rgba(0, 0, 0, 1);
   }
 `;
+const InputDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  line-height: 1.4375em;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 2rem;
+`;
+const PlainText = styled.p`
+  font-size: 1.8rem;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.1rem;
+  color: #326e62;
+  font-weight: 400;
+`;
+
 const style = {
   position: 'absolute',
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
+  borderRadius: '10px',
   width: 400,
   bgcolor: 'background.paper',
-  border: '2px solid #000',
+  border: '10px solid rgb(50,110,98,0.5)',
   boxShadow: 24,
   p: 4,
   display: 'flex',
   flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
 };
 
 export default function AddModal(props) {
@@ -134,12 +200,10 @@ export default function AddModal(props) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h5" component="h2">
-            Add my booth
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 3 }}>
+          <Title>Add my booth</Title>
+          {/* <plainText id="modal-modal-description" sx={{ mt: 3 }}>
             Booth의 이름과 번호를 정해주세요!
-          </Typography>
+          </plainText> */}
 
           <Box
             component="form"
@@ -147,25 +211,45 @@ export default function AddModal(props) {
               handleSubmit1(event, userId, deviceId, deviceName)
             }
           >
-            <TextField
+            {/* <TextField
               id="BoothName"
               label="Booth Name"
               variant="outlined"
               sx={{ mt: 3 }}
               value={deviceName}
               onChange={(e) => dispatch(setBoothName(e.target.value))}
-            />
+            /> */}
+            <inputDiv>
+              <CustomLabel>Booth Name</CustomLabel>
+              <CustomInput
+                id="BoothName"
+                type="deviceName"
+                value={deviceName}
+                onChange={(e) => dispatch(setBoothName(e.target.value))}
+              />
+            </inputDiv>
+            <inputDiv>
+              <CustomLabel>Booth ID</CustomLabel>
+              <CustomInput
+                id="BoothSerialNumber"
+                type="BoothSerialNumber"
+                value={deviceId}
+                onChange={(e) => dispatch(setBoothSerialNumber(e.target.value))}
+              />
+            </inputDiv>
 
-            <TextField
+            {/* <TextField
               id="BoothSerialNumber"
               label="Booth Serial Number"
               variant="outlined"
               sx={{ mt: 3 }}
               value={deviceId}
               onChange={(e) => dispatch(setBoothSerialNumber(e.target.value))}
-            />
+            /> */}
 
-            <Button
+            <CustomBtn type="submit">add</CustomBtn>
+
+            {/* <Button
               type="submit"
               variant="contained"
               size="large"
@@ -175,12 +259,9 @@ export default function AddModal(props) {
                 color: 'white',
                 fontSize: 20,
               }}
-              // onClick={(e, boothName, userId, deviceId) => {
-              //   handleSubmit1(e, boothName, userId, deviceId);
-              // }}
             >
               add
-            </Button>
+            </Button> */}
           </Box>
         </Box>
       </Modal>

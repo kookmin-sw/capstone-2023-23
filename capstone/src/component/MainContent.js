@@ -20,58 +20,114 @@ import EnvControl from './EnvControl';
 import { useDispatch } from 'react-redux';
 
 const BasicLayout = styled.div`
-  height: 100%;
-  width: 100vw;
-  padding: 1rem;
+  width: 100wv;
+
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  background-color: rgb(230, 231, 234);
+  // background-color: rgb(129, 184, 168, 0.3);
 `;
+
 const DataContainer = styled.div`
-  display: flex;
-  position: relative;
+  max-height: 600px;
   justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 60%;
-  padding: 1rem;
+  width: 1000px;
 `;
+
 const BoxContainer = styled.div`
-  height: 40%;
-  padding: 1rem;
+  display: flex;
+  justify-content: center;
+
+  width: 1032px;
+  height: 290px;
 `;
+
+const Box1 = styled.div`
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  padding: 1rem;
+  width: 400px;
+`;
+
 const ChartContainer = styled.div`
-  height: 60%;
-  padding: 1rem;
+  transform: translateY(15%);
+  border: 15px solid white;
+  border-radius: 10px;
+
+  display: flex;
+  height: 550px;
+
   background-color: white;
+  width: 1000px;
+  margin-bottom: 6rem;
 `;
+
 const ImageContainer = styled.div`
   width: 30%;
   height: 100%;
   padding: 1rem;
   background-color: white;
 `;
+
 const EnvControlContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  width: auto;
-  padding: 1rem;
-  height: 40%;
+  // left: 70%;
+  // transform: translateY(-45%);
+  // right: 1%;
+  // display: flex;
+  // height: 820px;
+  // width: 550px;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  // background-color: white;
+  // border: 10px solid rgb(50,110,98,0.4);
+  // border-radius:10px;
+  padding-top: 4rem;
+
+  // boxShadow: 24,
+  // flex: 1;
 `;
+
 const Btn = styled.button`
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
   width: fit-content;
   block-size: fit-content;
 `;
+
 const Cstm = styled.div`
-  m:10,
-  padding:10,
+  m: 10;
+  padding: 10;
   width: 10px;
+`;
+const PlainText = styled.p`
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.2rem;
+  color: #00352c;
+  width: fit-content;
+  font-weight: 700;
+  text-transform: uppercase;
+`;
+
+const div1 = styled.div`
+  padding: 10;
+`;
+const Box0 = styled.div`
+  height: 100vh;
+  // height: 1000px;
+  padding-bottom: 5rem;
+  background-color: rgb(129, 184, 168, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 `;
 function MainContent() {
   const [imageUrl, setImageUrl] = useState('');
@@ -97,29 +153,21 @@ function MainContent() {
 
   const navigate = useNavigate();
   return (
-    <BasicLayout>
-      <DataContainer>
+    <Box0>
+      <BasicLayout>
         <ChartContainer>
           <DataChart />
         </ChartContainer>
+
         <BoxContainer>
           <DataBox />
         </BoxContainer>
-      </DataContainer>
-      <Box>
-        <divCstm>
-          <img src={imageUrl} alt="Plant Image" />
-        </divCstm>
+      </BasicLayout>
 
-        {/* <ImageContainer>
-        <div style={{ width: '100%', height: '100%' }}></div>
-        <Btn onClick={() => navigate(`/`)}>Home 가기</Btn>
-      </ImageContainer> */}
-        <EnvControlContainer>
-          <EnvControl></EnvControl>
-        </EnvControlContainer>
-      </Box>
-    </BasicLayout>
+      <EnvControlContainer>
+        <EnvControl></EnvControl>
+      </EnvControlContainer>
+    </Box0>
   );
 }
 export default MainContent;

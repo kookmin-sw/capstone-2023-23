@@ -12,18 +12,93 @@ import Typography from '@mui/material/Typography';
 import Checkbox from '@mui/material/Checkbox';
 import styled from 'styled-components';
 import { useEffect } from 'react';
-
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 //redux
 import { useDispatch, useSelector } from 'react-redux';
 import { setCheckedBooths, setCheckedPlant } from '../store/store';
 
+// const PlantBox = styled.div`
+//   display: flex;
+//   position: relative;
+//   width: auto;
+//   height: 100;
+//   margin: 1rem;
+//   flex-shrink: 0;
+//   // box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+//   // border: 1px solid #000;
+//   // border-radius: 50px;
+// `;
+
 const PlantBox = styled.div`
   display: flex;
   position: relative;
-  width: auto;
-  height: 100;
+  width: 500;
+  height: 700px;
   margin: 1rem;
   flex-shrink: 0;
+`;
+const ContentWrapper = styled.div`
+  display: flex;
+
+  align-items: flex-start;
+`;
+const CardBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 700px;
+  background: rgb(191, 218, 210);
+  border: 1px solid #ccc; /* 테두리 */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); /* 테두리 그림자 */
+  border-radius: 10px; /* 테두리 반경 */
+  width: 643px; /* 원하는 너비 값으로 변경하세요 */
+  text-align: center;
+  align-content: center;
+  jusity-content: center;
+`;
+const CardContent1 = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  text-align: center;
+  align-content: center;
+  jusity-content: center;
+`;
+
+const Title = styled.h4`
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.6;
+  color: #00352c;
+  padding-top: 5rem;
+  padding-left: 3.5rem;
+
+  text-transform: uppercase;
+`;
+const PlainText = styled.p`
+  display: flex;
+
+  font-size: 1.3rem;
+  font-family: 'Playfair Display', serif;
+  color: #234d44;
+  font-weight: 300;
+  margin-left: 2rem;
+  padding-top: 0.3rem;
+`;
+const Div1 = styled.div`
+  height: 217px;
+  width: 373px;
+  background: rgb(254, 248, 247);
+
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  flex-direction: column;
+  margin-left: 4rem;
+  border-bottom-right-radius: 10px;
 `;
 
 export default function Plant(props) {
@@ -75,35 +150,22 @@ export default function Plant(props) {
     navigate('/Farm/booth/plant1/');
   }
   return (
-    <PlantBox>
-      <Card>
-        <CardContent onClick={() => handleClick()}>
-          <img src={imageUrl} alt="Plant Image" />
-
-          <Typography gutterBottom variant="h5" component="div">
-            {props.plantInfo.plantName}
-          </Typography>
-
-          {/* <Typography variant="body2" color="text.secondary">
+    <CardBox>
+      <img src={imageUrl} alt="Plant Image" />
+      <ContentWrapper onClick={() => handleClick()}>
+        <Title>{props.plantInfo.plantName}</Title>
+        {/* <Typography variant="body2" color="text.secondary">
             Plant-Serial-Number : {props.plantInfo.plantSerialNumber}
           </Typography> */}
+        <Div1>
+          <PlainText>Plant Species : {props.plantInfo.plantSpecies}</PlainText>
 
-          <Typography variant="body2" color="text.secondary">
-            PlantSpecies : {props.plantInfo.plantSpecies}
-          </Typography>
+          <PlainText>Humidity : {props.plantInfo.humidity}</PlainText>
 
-          <Typography variant="body2" color="text.secondary">
-            Humidity : {props.plantInfo.humidity}
-          </Typography>
-
-          <Typography variant="body2" color="text.secondary">
-            Temperature : {props.plantInfo.temperature}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            soilMoisture : {props.plantInfo.soilMoisture}
-          </Typography>
-        </CardContent>
-      </Card>
-    </PlantBox>
+          <PlainText>Temperature : {props.plantInfo.temperature}</PlainText>
+          <PlainText>soil-Moisture : {props.plantInfo.soilMoisture}</PlainText>
+        </Div1>
+      </ContentWrapper>
+    </CardBox>
   );
 }
