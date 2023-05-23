@@ -5,7 +5,7 @@ import static org.mockito.Mockito.when;
 
 import com.example.capstone.entity.LogEntity;
 import com.example.capstone.repository.DeviceRepository;
-import com.example.capstone.repository.LogAverageRepository;
+import com.example.capstone.repository.CalendarRepository;
 import com.example.capstone.repository.LogRepository;
 import java.util.ArrayList;
 import org.junit.jupiter.api.BeforeEach;
@@ -20,7 +20,7 @@ class LogServiceTest {
     @Mock
     private LogRepository logRepositoryMock;
     private DeviceRepository d;
-    private LogAverageRepository la;
+    private CalendarRepository la;
 
     @BeforeEach
     void setUp() {
