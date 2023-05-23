@@ -1,0 +1,175 @@
+{
+  "dummy": [
+    {
+      "id": "temp",
+      "color": "hsl(48, 70%, 50%)",
+      "data": [
+        {
+          "x": "00",
+          "y": "25"
+        },
+        {
+          "x": "01",
+          "y": "26"
+        },
+        {
+          "x": "02",
+          "y": "24"
+        },
+        {
+          "x": "03",
+          "y": "26"
+        },
+        {
+          "x": "04",
+          "y": "25"
+        }
+      ]
+    },
+    {
+      "id": "humidity",
+      "color": "hsl(179, 70%, 50%)",
+      "data": [
+        {
+          "x": "00",
+          "y": "40"
+        },
+        {
+          "x": "01",
+          "y": "40"
+        },
+        {
+          "x": "02",
+          "y": "41"
+        },
+        {
+          "x": "03",
+          "y": "42"
+        },
+        {
+          "x": "04",
+          "y": "42"
+        }
+      ]
+    }
+  ],
+  "user": [
+    {
+      "id": "0",
+      "email": "admin@admin.com",
+      "password": "admin"
+    },
+    {
+      "id": "1",
+      "email": "psj@psj.com",
+      "password": "psj"
+    },
+    {
+      "email": "tjswls@tjswls.com",
+      "password": "tjswls",
+      "id": "tBSx0vY"
+    },
+    {
+      "email": "park@naver.com",
+      "password": "park",
+      "firstName": "park",
+      "lastName": "sung",
+      "id": "rwYDO8e"
+    },
+    {
+      "email": "asdf@asdf.com",
+      "password": "asdf",
+      "firstName": "asdf",
+      "lastName": "asdf",
+      "id": "5Er9Ek4"
+    }
+  ],
+  "booth": [
+    {
+      "email": "park@naver.com",
+      "boothName": "booth1",
+      "boothSerialNumber": "asd100"
+    },
+    {
+      "email": "park@naver.com",
+      "boothName": "booth2",
+      "boothSerialNumber": "asd101"
+    },
+    {
+      "email": "psj@psj.com",
+      "boothName": "booth1",
+      "boothSerialNumber": "asd201"
+    },
+    {
+      "id": "stxwe9s5r",
+      "boothName": "first",
+      "boothSerialNumber": "1"
+    },
+    {
+      "id": "8audkq2zt",
+      "boothName": "first",
+      "boothSerialNumber": "0"
+    },
+    {
+      "id": "joycx0jxe",
+      "boothName": "booth1",
+      "boothSerialNumber": "1"
+    },
+    {
+      "id": "k42xcsch3",
+      "boothName": "booth2",
+      "boothSerialNumber": "2"
+    },
+    {
+      "id": "tgfboee1p",
+      "boothName": "booth3",
+      "boothSerialNumber": "3"
+    }
+  ],
+  "plant": [
+    {
+      "email": "park@naver.com",
+      "boothName": "booth1",
+      "plantName": "plant1"
+    },
+    {
+      "email": "park@naver.com",
+      "boothName": "booth2",
+      "plantName": "plant1"
+    },
+    {
+      "email": "park@naver.com",
+      "boothName": "booth1",
+      "plantName": "plant1"
+    },
+    {
+      "email": "psj@psj.com",
+      "boothName": "booth1",
+      "plantName": "plant1"
+    },
+    {
+      "id": "iimist4pb",
+      "plantName": "plant1",
+      "plantSerialNumber": "1"
+    },
+    {
+      "id": "db7odbw4j",
+      "plantName": "plant1",
+      "plantSerialNumber": "1"
+    },
+    {
+      "id": "zekduy1n6",
+      "plantName": "plant2",
+      "plantSerialNumber": "2",
+      "email": "park@naver.com",
+      "boothSerialNumber": "5"
+    },
+    {
+      "id": "gm39dfrfa",
+      "plantName": "plant1",
+      "plantSerialNumber": "1",
+      "email": "park@naver.com",
+      "boothSerialNumber": "asd100"
+    }
+  ]
+}
