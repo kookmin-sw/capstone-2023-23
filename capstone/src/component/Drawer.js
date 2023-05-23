@@ -35,7 +35,9 @@ export default function TemporaryDrawer() {
   return (
     <React.Fragment>
       <Button onClick={toggleDrawer('left', true)}>
-        <MenuIcon sx={{ color: '#7B95B7', fontSize: 50, align: 'center' }} />
+        <MenuIcon
+          sx={{ color: 'rgb(50,110,98)', fontSize: 50, align: 'center' }}
+        />
       </Button>
       <Drawer
         anchor="left"

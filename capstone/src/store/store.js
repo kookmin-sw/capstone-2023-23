@@ -67,7 +67,7 @@ let boothSlice = createSlice({
 let checkedBooth = createSlice({
   name: 'checked',
   initialState: {
-    checkedBooths: '',
+    checkedBooths: [],
   },
   //checkedBooths는 현재 배열이므로 아래 reducer함수로 상태 관리
   //아래 코드 setCheckedBooths 액션은 checkedBooths 배열에 특정 id를 추가하거나 삭제

@@ -19,12 +19,71 @@ import { setBoothCookieSerialNumber, setCheckedBooths } from '../store/store';
 const BoothBox = styled.div`
   display: flex;
   position: relative;
-  width: auto;
-  height: 90%;
+  width: 350px;
+  height: 300px;
   margin: 1rem;
   flex-shrink: 0;
+  //
+`;
+const CardContentWrapper = styled(CardContent)`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 0;
+`;
+const CardBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 320px;
+  background: rgb(254, 242, 240, 0.6);
+  border: 1px solid #ccc; /* 테두리 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* 테두리 그림자 */
+  border-radius: 4px; /* 테두리 반경 */
+  width: 350px; /* 원하는 너비 값으로 변경하세요 */
+  text-align: center;
+  align-content: center;
+  jusity-content: center;
+`;
+const CardContent1 = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  text-align: center;
+  align-content: center;
+  jusity-content: center;
+
+  margin: 1rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+
+  padding-bottom: 1rem;
 `;
 
+const Title = styled.h4`
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.6;
+  // color: rgba(0, 0, 0, 0.87);
+  color: #00352c;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+
+  text-transform: uppercase;
+`;
+const PlainText = styled.p`
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  color: #234d44;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+`;
 export default function Booth2(props) {
   const navigate = useNavigate();
 
@@ -62,6 +121,7 @@ export default function Booth2(props) {
   //boothCookie에 props.boothInfo.deviceId값을 저장
   function handleClick(event) {
     const deviceId = props.boothInfo.deviceId;
+
     dispatch(setBoothCookieSerialNumber(deviceId));
     console.log('booth2', deviceId);
 
@@ -70,28 +130,26 @@ export default function Booth2(props) {
   }
   return (
     <BoothBox>
-      <Card>
+      <CardBox>
         <Checkbox
           checked={isChecked} //checkBox 상태 설정
           onChange={handleCheckBoxChange} //checkBox 상태 변경 핸들러
           inputProps={{ 'aria-label': 'controlled' }}
           value={props.boothInfo.deviceId} //check된 booth의 id 가져옴(서버 요청 후 DB에서 받은)
         />
-        <CardContent onClick={() => handleClick()}>
-          <Typography gutterBottom variant="h5" component="div">
-            {props.boothInfo.deviceName}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
+        <Title>{props.boothInfo.deviceName}</Title>
+        <CardContent1 onClick={() => handleClick()}>
+          <PlainText variant="body2" color="text.secondary">
             device ID : {props.boothInfo.deviceId}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
+          </PlainText>
+          <PlainText variant="body2" color="text.secondary">
             Plant Species : {props.boothInfo.plantSpecies}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
+          </PlainText>
+          <PlainText variant="body2" color="text.secondary">
             Plant Name : {props.boothInfo.plantName}
-          </Typography>
-        </CardContent>
-      </Card>
+          </PlainText>
+        </CardContent1>
+      </CardBox>
     </BoothBox>
   );
 }

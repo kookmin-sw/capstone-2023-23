@@ -23,6 +23,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header />
+
         {/* <Alert /> */}
         <Routes>
           <Route exact path="/" element={<Home />} />

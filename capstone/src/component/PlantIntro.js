@@ -22,6 +22,7 @@ const BasicLayout = styled.div`
   width: 100vw;
   padding: 1rem;
   display: flex;
+
   flex-direction: column;
   position: relative;
   align-item: center;
@@ -34,7 +35,8 @@ const BasicLayout = styled.div`
 const BoothRoot = styled.div`
   display: flex;
   margin: 0 auto;
-  padding 1rem;
+
+  padding-top: 3rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -59,14 +61,17 @@ const PlainText = styled.p`
   margin: 0 auto;
   padding: 0rem 1rem;
   font-size: 1.5rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(80, 112, 61);
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
+  color: rgb(50, 110, 98);
   width: fit-content;
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 0.3rem;
 `;
 const Underline = styled.div`
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3rem;
   width: 80px;
   height: 0.4rem;
   margin: 0 auto;
@@ -82,12 +87,13 @@ const BtnContainer = styled.div`
   display: flex;
   float: right;
   margin: 0 auto;
-  margin-top: 0.5rem;
+
   margin-bottom: 1rem;
   justify-content: space-between;
   align-items: right;
   align-content: right;
   width: 95%;
+  padding-top: 2rem;
 `;
 const HeadContainer = styled.div`
   display: flex;
@@ -96,6 +102,28 @@ const HeadContainer = styled.div`
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 `;
+const style = {
+  // position: 'absolute',
+  top: '30%',
+  // left: '50%',
+  // transform: 'translate(-50%, -50%)',
+
+  width: 600,
+  // bgcolor: 'background.paper',
+  // border: '10px solid rgb(50,110,98,0.3)',
+  // boxShadow: 20,
+  p: 1.5,
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+  borderBottom: '4px solid rgb(50, 110, 98)',
+  mb: 5,
+  ml: 5,
+  mr: 5,
+
+  // min-width: 270px;
+};
 
 function PlantIntro(props) {
   const navigate = useNavigate();
@@ -115,6 +143,7 @@ function PlantIntro(props) {
 
   const addPlant = (plant) => {
     setPlantList(plant);
+    setShowAddContainer(false);
   };
   const deviceId = useSelector(
     (state) => state.boothCookie.boothCookieSerialNumber
@@ -155,12 +184,14 @@ function PlantIntro(props) {
   return (
     <div>
       <BasicLayout>
-        <HeadContainer>
-          <PlainText>Hello! {user[1] + ' ' + user[2]}</PlainText>
-          <Underline></Underline>
-        </HeadContainer>
         <BoothRoot>
-          <Plant plantInfo={plantList} />
+          {showAddContainer ? ( // 등록 컨테이너를 표시할지 여부에 따라 조건부 렌더링
+            <Box sx={style}>
+              <PlainText>please register your plant</PlainText>
+            </Box>
+          ) : (
+            <Plant plantInfo={plantList} />
+          )}
 
           <BtnContainer>
             <AddModalPlant addPlant={addPlant} />
