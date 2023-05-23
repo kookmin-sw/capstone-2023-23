@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "ChorokApp",
+    "slug": "ChorokApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Your custom description",
+        "NSPhotoLibraryUsageDescription": "Your custom description",
+        "NSPhotoLibraryAddUsageDescription": "Your custom description"
+      },
+      "googleServicesFile": "./expo-credentials/google-services.json"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./expo-credentials/google-services.json",
+      "permissions": ["NOTIFICATIONS"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8b47b007-8a65-4b71-b40d-4ebaa5f1270c"
+      }
+    }
+  }
+}
