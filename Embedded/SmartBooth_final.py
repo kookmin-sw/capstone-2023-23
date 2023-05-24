@@ -207,4 +207,4 @@ while True:
     print("현재 시간:", formatted_time)
     print('-----------------------------')
 
-    time.sleep(600)  # 10분 대기
+    time.sleep(300)  # 5분 대기
