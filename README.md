@@ -29,13 +29,14 @@
 ---
 # 시연영상
 <iframe width="560" height="315" src="https://www.youtube.com/embed/npBVgDlOBvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 # 팀원 소개
   
-  👩‍✈️문선진(captain) : Fe
-  🧟문소윤 : Be, embedded
-  🧚‍♀️이정현 : Be
-  👼박성준 : Fe
-  🤖노지민 : AI
+- 👩‍✈️문선진(captain) : Fe
+- 🧟문소윤 : Be, embedded
+- 🧚‍♀️이정현 : Be
+- 👼박성준 : Fe
+- 🤖노지민 : AI
   
 [깃허브페이지 Link](https://kookmin-sw.github.io/capstone-2023-23/)
