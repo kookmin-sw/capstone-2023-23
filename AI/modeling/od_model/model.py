@@ -3,8 +3,7 @@ import torchvision
 from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
 
-def mask_rcnn():
-    num_classes = 9 # 0 -> background 
+def mask_rcnn(num_classes):
     hidden_layer = 64
 
     # --------------- create model ---------------
