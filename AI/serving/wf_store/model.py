@@ -1,12 +1,22 @@
-# import torch
-# from torchvision.models import resnet50
-
-# model = resnet50(pretrained=True)
-# model_path = "./model_store/resnet50.pth"
-# torch.save(model.state_dict(), model_path)
-
 import torch
 import torch.nn as nn
+import torchvision
+from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
+from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
+
+def mask_rcnn(num_classes):
+    hidden_layer = 64
+
+    # --------------- create model ---------------
+    model = torchvision.models.detection.maskrcnn_resnet50_fpn(weight=torchvision.models.detection.MaskRCNN_ResNet50_FPN_Weights.DEFAULT)
+
+    # roi cls head 
+    in_features = model.roi_heads.box_predictor.cls_score.in_features
+    model.roi_heads.box_predictor = FastRCNNPredictor(in_features, num_classes)
+
+    # roi mask head
+    in_features_mask = model.roi_heads.mask_predictor.conv5_mask.in_channels
+    model.roi_heads.mask_predictor = MaskRCNNPredictor(in_features_mask, hidden_layer, num_classes)
 
 class Bottleneck(nn.Module):
     expansion = 4
@@ -106,5 +116,7 @@ class ResNet(nn.Module):
 
 def resnet50(num_classes=1000):
     return ResNet(Bottleneck, [3, 4, 6, 3], num_classes)
+
+
 
 
