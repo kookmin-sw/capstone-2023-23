@@ -32,9 +32,6 @@ https://www.youtube.com/embed/npBVgDlOBvg
 ---
 # 팀원 소개
   
-
-- 👼박성준 : Fe
-- 🤖노지민 : AI
 <div align=left> 
   
   # FrontEnd
