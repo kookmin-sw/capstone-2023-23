@@ -35,7 +35,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
 
 - 👼박성준 : Fe
 - 🤖노지민 : AI
-<div align=center> 
+<div align=left> 
   
   # FrontEnd
   
