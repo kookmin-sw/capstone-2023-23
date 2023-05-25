@@ -39,8 +39,8 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href=""><img src="width="100px;" alt="문선진"/><br />213123<br/><sub><b>TeamLeader & FrontEnd  </b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="" width="100px;" alt="박성준"/><br />213123<br/><sub><b>FrontEnd  </b></sub></a><br /></td>
+      <td align="center"><a href="">문선진<br />213123<br/><sub><b>TeamLeader & FrontEnd  </b></sub></a><br /></td>
+      <td align="center"><a href="">박성준<br />213123<br/><sub><b>FrontEnd  </b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
@@ -72,12 +72,13 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href=""><img src="width="100px;" alt="이정현"/><br />213123<br/><sub><b>BackEnd  </b></sub></a><br /></td>
+      <td align="center"><a href="">이정현<br />213123<br/><sub><b>BackEnd  </b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
 
   <br>
+<!--       <td align="center"><a href=""><img src="width="100px;" alt="문소윤"/><br />213123<br/><sub><b>Embedded System</b></sub></a><br /></td> -->
 
   <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> 
   <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> 
@@ -93,7 +94,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href=""><img src="width="100px;" alt="문소윤"/><br />213123<br/><sub><b>Embedded System</b></sub></a><br /></td>
+      <td align="center"><a href="">문소윤<br />213123<br/><sub><b>Embedded System</b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
@@ -115,7 +116,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href=""><img src="width="100px;" alt="노지민"/><br />213123<br/><sub><b>AI</b></sub></a><br /></td>
+      <td align="center"><a href="">노지민<br />213123<br/><sub><b>AI</b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
