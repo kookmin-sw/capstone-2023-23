@@ -15,7 +15,6 @@ However, these plants, which were eagerly introduced, often require more delicat
 Even veteran caretakers worry about leaving their plants alone when they have to leave home for trips or frequent business travel.
 To address these issues, we've created a service that maintains an optimal growth environment suited to the plant's characteristics even in the owner's absence, 
 and allows real-time checking of the plant's condition.
-</h3>
 </div>
 <hr>
 <div>
