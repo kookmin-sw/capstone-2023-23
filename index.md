@@ -17,7 +17,7 @@ To address these issues, we've created a service that maintains an optimal growt
 and allows real-time checking of the plant's condition.
 </h3>
 </div>
-
+<hr>
 <div>
 
 <h1>주요 기능</h1>
