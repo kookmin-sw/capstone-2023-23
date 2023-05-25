@@ -10,11 +10,11 @@
 
 <hr>
 <h1>Abstract</h1>
-<h3>With the rising interest in plant-based interior design, more and more people are bringing plants into their homes.
-However, these plants, which were eagerly introduced, often require more delicate care than expected, making it easy for novice plant caretakers to make mistakes.
-Even veteran caretakers worry about leaving their plants alone when they have to leave home for trips or frequent business travel.
-To address these issues, we've created a service that maintains an optimal growth environment suited to the plant's characteristics even in the owner's absence, 
-and allows real-time checking of the plant's condition.
+<h3>With the rising interest in plant-based interior design, more and more people are bringing plants into their homes.</h3>
+<h3>However, these plants, which were eagerly introduced, often require more delicate care than expected, making it easy for novice plant caretakers to make mistakes.</h3>
+<h3>Even veteran caretakers worry about leaving their plants alone when they have to leave home for trips or frequent business travel.</h3>
+<h3>To address these issues, we've created a service that maintains an optimal growth environment suited to the plant's characteristics even in the owner's absence, 
+and allows real-time checking of the plant's condition.</h3>
 </div>
 <hr>
   
