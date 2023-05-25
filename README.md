@@ -152,5 +152,4 @@ https://www.youtube.com/embed/npBVgDlOBvg
 
 </div>
 
-  
-[깃허브페이지 Link](https://kookmin-sw.github.io/capstone-2023-23/)
+ 
