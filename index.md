@@ -38,10 +38,10 @@ and allows real-time checking of the plant's condition.</h3>
 
 </div>
 
----
+<hr>
 # 부스사진
 ![img](./images/img2.png)
----
+<hr>
 # 시연영상
 [https://www.youtube.com/embed/npBVgDlOBvg](https://www.youtube.com/embed/npBVgDlOBvg)
 
