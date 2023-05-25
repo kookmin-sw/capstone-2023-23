@@ -41,7 +41,8 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://github.com/anjdfk111">문선진<br />****5066<br/><sub><b>TeamLeader</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/anjdfk111">문선진<br />****5066<br/><sub><b>TeamLeader</b></sub></a>  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+<br /></td>
       <td align="center"><a href="https://github.com/psjoo7">박성준<br />****0665<br/><sub><b></b></sub></a><br /></td>
     </tr>
   </tbody>
