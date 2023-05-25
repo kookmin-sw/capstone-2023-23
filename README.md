@@ -41,9 +41,9 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center">문선진<br />****5066<br/><sub><b>TeamLeader</b></sub><br/><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black">
+      <td align="center">문선진<br />****5066<br/><sub><b>TeamLeader</b></sub><br/><a href="https://github.com/psjoo7"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/>
 <br /></td>
-      <td align="center"><a href="https://github.com/psjoo7">박성준<br />****0665<br/><sub><b></b></sub></a><br /></td>
+      <td align="center">박성준<br />****0665<br/><sub><b><a><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/></b></sub><br /></td>
     </tr>
   </tbody>
 </table>
