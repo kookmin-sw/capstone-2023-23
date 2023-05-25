@@ -41,8 +41,8 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href="">문선진<br />****5066<br/><sub><b>TeamLeader & FrontEnd  </b></sub></a><br /></td>
-      <td align="center"><a href="">박성준<br />****0665<br/><sub><b>&nbsp&nbsp&nbsp&nbsp FrontEnd &nbsp&nbsp&nbsp&nbsp </b></sub></a><br /></td>
+      <td align="center"><a href="">문선진<br />****5066<br/><sub><b>TeamLeader</b></sub></a><br /></td>
+      <td align="center"><a href="">박성준<br />****0665<br/><sub><b></b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
@@ -74,7 +74,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href="">이정현<br />****1320<br/><sub><b>BackEnd  </b></sub></a><br /></td>
+      <td align="center"><a href="">이정현<br />****1320<br/><sub><b></b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
@@ -96,7 +96,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href="">문소윤<br />****3377<br/><sub><b>Embedded System</b></sub></a><br /></td>
+      <td align="center"><a href="">문소윤<br />****3377<br/><sub><b></b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
@@ -118,7 +118,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href="">노지민<br />****1617<br/><sub><b>AI</b></sub></a><br /></td>
+      <td align="center"><a href="">노지민<br />****1617<br/><sub><b></b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
