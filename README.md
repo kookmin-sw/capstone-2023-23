@@ -39,7 +39,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <tbody>
     <tr>
       <td align="center"><a href=""><img src="width="100px;" alt="문선진"/><br />213123<br/><sub><b>TeamLeader & FrontEnd  </b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="" width="100px;" alt="박성준"/><br /><sub><b>FrontEnd  </b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="" width="100px;" alt="박성준"/><br />213123<br/><sub><b>FrontEnd  </b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
@@ -71,7 +71,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href=""><img src="width="100px;" alt="이정현"/><br /><sub><b>BackEnd  </b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="width="100px;" alt="이정현"/><br />213123<br/><sub><b>BackEnd  </b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
@@ -92,7 +92,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href=""><img src="width="100px;" alt="문소윤"/><br /><sub><b>Embedded System</b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="width="100px;" alt="문소윤"/><br />213123<br/><sub><b>Embedded System</b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
@@ -108,11 +108,13 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <img src="https://img.shields.io/badge/AmazonEC2-FF9900?style=for-the-badge&logo=AmazonEC2&logoColor=white"> 
   <br>
   <br>
+        
   # AI
+        
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href=""><img src="width="100px;" alt="노지민"/><br /><sub><b>AI</b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="width="100px;" alt="노지민"/><br />213123<br/><sub><b>AI</b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
