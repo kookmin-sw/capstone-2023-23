@@ -54,7 +54,8 @@ and allows real-time checking of the plant's condition.
 <hr>
 <h1>시연영상<h1/>
 <br/>
-<a href ="https://www.youtube.com/embed/npBVgDlOBvg">https://www.youtube.com/embed/npBVgDlOBvg<a/>
+<a href ="https://www.youtube.com/embed/npBVgDlOBvg"><img src="./images/스크린샷 2023-05-26 오전 3.59.01.png" alt="image3">
+<a/>
 
 
 ---
