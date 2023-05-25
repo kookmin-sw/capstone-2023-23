@@ -32,17 +32,15 @@ https://www.youtube.com/embed/npBVgDlOBvg
 ---
 # 팀원 소개
   
-- 👩‍✈️문선진(captain) : Fe
-- 🧟문소윤 : Embedded
-- 🧚‍♀️이정현 : Be
+
 - 👼박성준 : Fe
 - 🤖노지민 : AI
 <div align=center> 
   
   # FrontEnd
   
-  - 👩‍✈️문선진(captain)
-  - 👼박성준
+  👩‍✈️문선진(captain)
+  👼박성준
 
 
   <br>
@@ -68,7 +66,8 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <br>
   
   # BackEnd
-  
+  🧚‍♀️이정현 : Be
+
   <br>
 
   <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> 
