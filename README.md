@@ -13,9 +13,9 @@
  #### With the rising interest in plant-based interior design, more and more people are bringing plants into their homes. </br>
  #### However, these plants, which were eagerly introduced, often require more delicate care than expected, making it easy for novice plant caretakers to make mistakes. </br>
  #### Even veteran caretakers worry about leaving their plants alone when they have to leave home for trips or frequent business travel.</br>
- #### To address these issues, we've created a service that maintains an optimal growth environment suited to the plant's characteristics even in the owner's absence, and allows real-time checking of the plant's condition.
+ #### To address these issues, we've created a service that maintains an optimal growth environment suited to the plant's characteristics even in the owner's absence, 
+ #### and allows real-time checking of the plant's condition.
 
----
 ---
 # 주요 기능
   - **식물 케어 서비스**
