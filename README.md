@@ -75,7 +75,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-        <td align="center">이정현<br />****1320<br/><a href="[https://github.com/psjoo7](https://github.com/JungHyun4)"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/>
+        <td align="center">이정현<br />****1320<br/><a href="https://github.com/JungHyun4"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/>
     </tr>
   </tbody>
 </table>
@@ -97,8 +97,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-              <td align="center">문소윤<br />****3377<br/><a href="https://github.com/kookso"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/>
-
+      <td align="center">문소윤<br />****3377<br/><a href="https://github.com/kookso"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/>
     </tr>
   </tbody>
 </table>
