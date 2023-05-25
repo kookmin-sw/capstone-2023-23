@@ -40,7 +40,8 @@ https://www.youtube.com/embed/npBVgDlOBvg
   # FrontEnd
   
   👩‍✈️문선진(captain)
-  👼박성준<table>
+  👼박성준
+  <table>
   <tbody>
     <tr>
       <td align="center"><a href=""><img src="width="100px;" alt="문선진"/><br /><sub><b>TeamLeader & FrontEnd  </b></sub></a><br /></td>
@@ -74,6 +75,13 @@ https://www.youtube.com/embed/npBVgDlOBvg
   
   # BackEnd
   🧚‍♀️이정현 : Be
+  <table>
+  <tbody>
+    <tr>
+      <td align="center"><a href=""><img src="width="100px;" alt="이정현"/><br /><sub><b>BackEnd  </b></sub></a><br /></td>
+    </tr>
+  </tbody>
+</table>
 
   <br>
 
