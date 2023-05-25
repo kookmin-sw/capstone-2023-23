@@ -40,7 +40,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
 
 
 ---
-# 팀원 소개
+# 팀 소개
   
 <div align=left> 
   
