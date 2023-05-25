@@ -68,11 +68,51 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <br>
   
   # BackEnd
-  🧚‍♀️이정현 : Be
   <table>
   <tbody>
     <tr>
       <td align="center"><a href=""><img src="width="100px;" alt="이정현"/><br /><sub><b>BackEnd  </b></sub></a><br /></td>
+    </tr>
+  </tbody>
+</table>
+
+  <br>
+
+  <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> 
+  <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> 
+  <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+  <br>
+  <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> 
+  <img src="https://img.shields.io/badge/AmazonS3-569A31?style=for-the-badge&logo=AmazonS3&logoColor=white">
+  <img src="https://img.shields.io/badge/AmazonEC2-FF9900?style=for-the-badge&logo=AmazonEC2&logoColor=white"> 
+  <br>
+  <br>
+  
+  # Embedded System
+  <table>
+  <tbody>
+    <tr>
+      <td align="center"><a href=""><img src="width="100px;" alt="문소윤"/><br /><sub><b>Embedded System</b></sub></a><br /></td>
+    </tr>
+  </tbody>
+</table>
+
+  <br>
+
+  <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> 
+  <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> 
+  <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+  <br>
+  <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> 
+  <img src="https://img.shields.io/badge/AmazonS3-569A31?style=for-the-badge&logo=AmazonS3&logoColor=white">
+  <img src="https://img.shields.io/badge/AmazonEC2-FF9900?style=for-the-badge&logo=AmazonEC2&logoColor=white"> 
+  <br>
+  <br>
+  # AI
+  <table>
+  <tbody>
+    <tr>
+      <td align="center"><a href=""><img src="width="100px;" alt="노지민"/><br /><sub><b>AI</b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
