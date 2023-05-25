@@ -116,6 +116,9 @@ and allows real-time checking of the plant's condition.</h3>
 <img src="https://img.shields.io/badge/-Raspberry_Pi-A22846?logo=raspberry-pi&logoColor=white&style=for-the-badge" alt="Raspberry Pi">
 <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=for-the-badge" alt="Python">
 <img src="https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white&style=for-the-badge" alt="OpenCV">
+<img src="https://img.shields.io/badge/GPIO-6DB33F?style=for-the-badge&logo=GPIO&logoColor=white"> 
+<img src="https://img.shields.io/badge/SPI-007396?style=for-the-badge&logo=java&logoColor=white">
+
 
 <hr>
 
