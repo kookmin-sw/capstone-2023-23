@@ -29,13 +29,13 @@
       - 실시간 모니터링 기능을 통해 부스 내부의 환경을 실시간으로 확인할 수 있어, 필요에 따라 즉각적인 대처가 가능합니다.
     - **식물 성장 일지**    
       - 매일매일 식물의 성장과정을 확인하고, 일지를 작성할 수 있어 식물의 성장 상태를 쉽게 파악할 수 있습니다.
-      - 
+      
 ---
 # 부스사진
 ![img](./images/img2.png)
 ---
 # 시연영상
-[https://www.youtube.com/embed/npBVgDlOBvg(https://www.youtube.com/embed/npBVgDlOBvg)]
+[https://www.youtube.com/embed/npBVgDlOBvg](https://www.youtube.com/embed/npBVgDlOBvg)
 
 
 ---
