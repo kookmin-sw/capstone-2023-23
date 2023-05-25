@@ -40,7 +40,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <tbody>
     <tr>
       <td align="center"><a href="">문선진<br />213123<br/><sub><b>TeamLeader & FrontEnd  </b></sub></a><br /></td>
-      <td align="center"><a href="">박성준<br />213123<br/><sub><b>FrontEnd &nbsp&nbsp&nbsp&nbsp </b></sub></a><br /></td>
+      <td align="center"><a href="">박성준<br />213123<br/><sub><b>&nbsp&nbsp&nbsp&nbsp FrontEnd &nbsp&nbsp&nbsp&nbsp </b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
