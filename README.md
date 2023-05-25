@@ -41,6 +41,10 @@ https://www.youtube.com/embed/npBVgDlOBvg
   
   # FrontEnd
   
+  - 👩‍✈️문선진(captain)
+  - 👼박성준
+
+
   <br>
 
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
