@@ -43,8 +43,8 @@ https://www.youtube.com/embed/npBVgDlOBvg
   👼박성준<table>
   <tbody>
     <tr>
-      <td align="center"><a href=""><img src="width="100px;" alt="문선진"/><br /><sub><b>TeamLeader & FrontEnd : </b></sub></a><br /></td>
-      <td align="center"><a href=""><img src="" width="100px;" alt="박성준"/><br /><sub><b>FrontEnd : </b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="width="100px;" alt="문선진"/><br /><sub><b>TeamLeader & FrontEnd  </b></sub></a><br /></td>
+      <td align="center"><a href=""><img src="" width="100px;" alt="박성준"/><br /><sub><b>FrontEnd  </b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
