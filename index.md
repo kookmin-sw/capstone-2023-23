@@ -49,7 +49,8 @@ and allows real-time checking of the plant's condition.
 <hr>
 <h1>부스사진<h1/>
 <br/>
-![img](./images/img2.png)
+<img src="./images/img2.png" alt="image2">
+
 <hr>
 <h1>시연영상<h1/>
 <br/>
