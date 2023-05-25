@@ -7,7 +7,7 @@
 <h3>하지만 호기롭게 집에 들인 식물들은 생각보다 섬세한 관리를 요하고, 초보 집사들은 실수를 저지르기 쉽다.</h3>
 <h3>또한 배테랑 집사들도 여행 혹은 잦은 출장으로 집을 비워야 할 때에 혼자 남겨질 식물때문에 걱정이 크다.</h3>
 <h3>이러한 문제를 해결하기 위해 부재 시에도 식물의 특성에 맞는 적정 성장 환경을 유지하고, 실시간으로 식물 상태를 확인 할 수 있는 서비스를 만들었다.</h3>
-</h3>
+
 <hr>
 <h1>Abstract</h1>
 <h3>With the rising interest in plant-based interior design, more and more people are bringing plants into their homes.
@@ -17,8 +17,8 @@ To address these issues, we've created a service that maintains an optimal growt
 and allows real-time checking of the plant's condition.
 </div>
 <hr>
+  
 <div>
-
 <h1>주요 기능</h1>
 
 <ul>
@@ -36,18 +36,17 @@ and allows real-time checking of the plant's condition.
     </ul>
   </li>
 </ul>
-
 </div>
 
 <hr>
-<h1>부스 소개<h1/>
+<h1>부스 소개</h1>
 <br/>
 <img src="./images/img2.png" alt="image2">
 
 <hr>
-<h1>시연 영상<h1/>
+<h1>시연 영상</h1>
 <br/>
-<a href ="https://www.youtube.com/embed/npBVgDlOBvg"><img src="./images/스크린샷 2023-05-26 오전 3.59.01.png" alt="image3"><a/>
+<a href ="https://www.youtube.com/embed/npBVgDlOBvg"><img src="./images/스크린샷 2023-05-26 오전 3.59.01.png" alt="image3"></a>
 
 
 <hr>
