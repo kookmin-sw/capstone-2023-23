@@ -28,6 +28,10 @@
 ---
 # 시연영상
 https://www.youtube.com/embed/npBVgDlOBvg
+[![Video Label](http://img.youtube.com/vi/59USvjy2toI/0.jpg)]([https://youtu.be/59USvjy2toI](https://www.youtube.com/embed/npBVgDlOBvg
+))
+
+
 
 ---
 # 팀원 소개
