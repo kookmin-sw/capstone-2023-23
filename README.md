@@ -35,9 +35,6 @@ https://www.youtube.com/embed/npBVgDlOBvg
 <div align=left> 
   
   # FrontEnd
-  
-  👩‍✈️문선진(captain)
-  👼박성준
   <table>
   <tbody>
     <tr>
