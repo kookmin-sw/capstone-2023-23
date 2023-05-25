@@ -3,17 +3,17 @@
 ---
 # 프로젝트 소개
   ![img](./images/image1.png)
-  #### 최근 식물을 활용한 인테리어에 대한 관심이 커지면서 너도나도 식물을 집에 들이고 있다. </br>
-  #### 하지만 호기롭게 집에 들인 식물들은 생각보다 섬세한 관리를 요하고, 초보 집사들은 실수를 저지르기 쉽다. </br>
-  #### 또한 배테랑 집사들도 여행 혹은 잦은 출장으로 집을 비워야 할 때에 혼자 남겨질 식물때문에 걱정이 크다. </br>
-  #### 이러한 문제를 해결하기 위해 부재 시에도 식물의 특성에 맞는 적정 성장 환경을 유지하고, 실시간으로 식물 상태를 확인 할 수 있는 서비스를 만들었다. 
+  ### 최근 식물을 활용한 인테리어에 대한 관심이 커지면서 너도나도 식물을 집에 들이고 있다. </br>
+  ### 하지만 호기롭게 집에 들인 식물들은 생각보다 섬세한 관리를 요하고, 초보 집사들은 실수를 저지르기 쉽다. </br>
+  ### 또한 배테랑 집사들도 여행 혹은 잦은 출장으로 집을 비워야 할 때에 혼자 남겨질 식물때문에 걱정이 크다. </br>
+  ### 이러한 문제를 해결하기 위해 부재 시에도 식물의 특성에 맞는 적정 성장 환경을 유지하고, 실시간으로 식물 상태를 확인 할 수 있는 서비스를 만들었다. 
 ---
 # Abstract
- #### With the rising interest in plant-based interior design, more and more people are bringing plants into their homes. </br>
- #### However, these plants, which were eagerly introduced, often require more delicate care than expected, making it easy for novice plant caretakers to make mistakes. </br>
- #### Even veteran caretakers worry about leaving their plants alone when they have to leave home for trips or frequent business travel.</br>
- #### To address these issues, we've created a service that maintains an optimal growth environment suited to the plant's characteristics even in the owner's absence, 
- #### and allows real-time checking of the plant's condition.
+ ### With the rising interest in plant-based interior design, more and more people are bringing plants into their homes. </br>
+ ### However, these plants, which were eagerly introduced, often require more delicate care than expected, making it easy for novice plant caretakers to make mistakes. </br>
+ ### Even veteran caretakers worry about leaving their plants alone when they have to leave home for trips or frequent business travel.</br>
+ ### To address these issues, we've created a service that maintains an optimal growth environment suited to the plant's characteristics even in the owner's absence, 
+ ### and allows real-time checking of the plant's condition.
 
 ---
 # 주요 기능
@@ -34,7 +34,7 @@
 ![img](./images/img2.png)
 ---
 # 시연영상
-<a href ="https://www.youtube.com/embed/npBVgDlOBvg"><a/>
+[[TeamPage Link](https://kookmin-sw.github.io/capstone-2023-23/)](https://kookmin-sw.github.io/capstone-2023-23/)
 
 
 ---
