@@ -41,8 +41,8 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href="">문선진<br />****5066<br/><sub><b>TeamLeader</b></sub></a><br /></td>
-      <td align="center"><a href="">박성준<br />****0665<br/><sub><b></b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/anjdfk111">문선진<br />****5066<br/><sub><b>TeamLeader</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/psjoo7">박성준<br />****0665<br/><sub><b></b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
@@ -74,7 +74,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href="">이정현<br />****1320<br/><sub><b></b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/JungHyun4">이정현<br />****1320<br/><sub><b></b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
@@ -96,7 +96,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href="">문소윤<br />****3377<br/><sub><b></b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/kookso">문소윤<br />****3377<br/><sub><b></b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
@@ -118,7 +118,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center"><a href="">노지민<br />****1617<br/><sub><b></b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/Jiminroh">노지민<br />****1617<br/><sub><b></b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
