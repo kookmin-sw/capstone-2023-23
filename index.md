@@ -15,7 +15,29 @@ Even veteran caretakers worry about leaving their plants alone when they have to
 To address these issues, we've created a service that maintains an optimal growth environment suited to the plant's characteristics even in the owner's absence, 
 and allows real-time checking of the plant's condition.</h3>
 </div>
-      
+---
+<div>
+
+<h1>주요 기능</h1>
+
+<ul>
+  <li><strong>식물 케어 서비스</strong>
+    <ul>
+      <li><strong>적정 환경 유지</strong></br>관리 중인 식물의 특성에 알맞은 온도, 습도, 일조량을 유지하여 식물의 성장을 도와줍니다.</li>
+      <li><strong>원격 제어</strong></br>직접 식물의 환경을 제어하지 않아도 어디서든지 웹/모바일로 온습도를 조절할 수 있도록 도와줍니다.</li>
+      <li><strong>이상탐지 알림</strong></br>정해진 시간마다 식물의 이상을 탐지하여 이상이 탐지될시 사용자에게 알람을 제공합니다.</li>
+    </ul>
+  </li>
+  <li><strong>관리현황 조회</strong>
+    <ul>
+      <li><strong>실시간 모니터링</strong></br>실시간 모니터링 기능을 통해 부스 내부의 환경을 실시간으로 확인할 수 있어, 필요에 따라 즉각적인 대처가 가능합니다.</li>
+      <li><strong>식물 성장 일지</strong></br>매일매일 식물의 성장과정을 확인하고, 일지를 작성할 수 있어 식물의 성장 상태를 쉽게 파악할 수 있습니다.</li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+
 ---
 # 부스사진
 ![img](./images/img2.png)
