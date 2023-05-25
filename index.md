@@ -47,10 +47,12 @@ and allows real-time checking of the plant's condition.
 </div>
 
 <hr>
-# 부스사진
+<h1>부스사진<h1/>
+<br/>
 ![img](./images/img2.png)
 <hr>
-# 시연영상
+<h1>시연영상<h1/>
+<br/>
 <a href ="https://www.youtube.com/embed/npBVgDlOBvg">https://www.youtube.com/embed/npBVgDlOBv<a/>
 
 
