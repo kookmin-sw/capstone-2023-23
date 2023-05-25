@@ -125,7 +125,7 @@ https://www.youtube.com/embed/npBVgDlOBvg
   <table>
   <tbody>
     <tr>
-      <td align="center">노지민<br />****3377<br/><a href="https://github.com/Jiminroh"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/>
+      <td align="center">노지민<br />****1617<br/><a href="https://github.com/Jiminroh"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/>
     </tr>
   </tbody>
 </table>
