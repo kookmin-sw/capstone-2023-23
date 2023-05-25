@@ -15,7 +15,7 @@ Even veteran caretakers worry about leaving their plants alone when they have to
 To address these issues, we've created a service that maintains an optimal growth environment suited to the plant's characteristics even in the owner's absence, 
 and allows real-time checking of the plant's condition.</h3>
 </div>
----
+
 <div>
 
 <h1>주요 기능</h1>
