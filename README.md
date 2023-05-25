@@ -40,122 +40,93 @@ https://www.youtube.com/embed/npBVgDlOBvg
 
 
 ---
-# 팀 소개
-  
 <div align=left> 
-  
-  # FrontEnd
-  <table>
-  <tbody>
-    <tr>
-      <td align="center"><sub><b>TeamLeader</b></sub><br/>문선진<br />****5066<br/><a href="https://github.com/anjdfk111"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/>
-<br /></td>
-      <td align="center">박성준<br />****5066<br/><a href="https://github.com/psjoo7"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/>
-    </tr>
-  </tbody>
-</table>
+
+## 👥 팀 소개
+
+### 🎨 FrontEnd
+
+| FrontEnd |  FrontEnd  |
+| :------------: | :------------: |
+| 문 선진 | 박 성준 |
+|      ****5066    |  ****5066 |
+| [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/anjdfk111) | [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/psjoo7) |
 
 
-  <br>
+🛠️ **Tools and Technologies:**
 
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/ReactNative-61DAFB?style=for-the-badge&logo=react&logoColor=black"> 
-  <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">
-  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white">
-  <img src="https://img.shields.io/badge/yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white"> 
+![React](https://img.shields.io/badge/-React-61DAFB?logo=React&logoColor=white&style=for-the-badge)
+![ReactNative](https://img.shields.io/badge/-ReactNative-61DAFB?logo=React&logoColor=white&style=for-the-badge)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=Node.js&logoColor=white&style=for-the-badge)
+![Redux](https://img.shields.io/badge/-Redux-764ABC?logo=Redux&logoColor=white&style=for-the-badge)
+![Yarn](https://img.shields.io/badge/-Yarn-2C8EBB?logo=yarn&logoColor=white&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
+![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?logo=prettier&logoColor=white&style=for-the-badge)
+![ESLint](https://img.shields.io/badge/-ESLint-4B32C3?logo=eslint&logoColor=white&style=for-the-badge)
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=Figma&logoColor=white&style=for-the-badge)
 
-  <br>
-  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
-  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
-  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
-  <img src="https://img.shields.io/badge/prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white"> 
-  <img src="https://img.shields.io/badge/eslint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"> 
-  <br>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white"> 
-  <br>
-  
+---
 
-  
-  <br>
-  
-  # BackEnd
-  <table>
-  <tbody>
-    <tr>
-        <td align="center">이정현<br />****1320<br/><a href="https://github.com/JungHyun4"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/>
-    </tr>
-  </tbody>
-</table>
+### 🖥️ BackEnd
 
-  <br>
-<!--       <td align="center"><a href=""><img src="width="100px;" alt="문소윤"/><br />213123<br/><sub><b>Embedded System</b></sub></a><br /></td> -->
+|   BackEnd  |
+| :------------: |
+| 이 정현 |
+|  ****1320 |
+| [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/JungHyun4) |
 
-  <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> 
-  <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> 
-  <img src="https://img.shields.io/badge/java-F24E1E?style=for-the-badge&logo=java&logoColor=white">
-  <br>
-  <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> 
-  <img src="https://img.shields.io/badge/AmazonS3-569A31?style=for-the-badge&logo=AmazonS3&logoColor=white">
-  <img src="https://img.shields.io/badge/AmazonEC2-FF9900?style=for-the-badge&logo=AmazonEC2&logoColor=white"> 
-  <br>
-  <br>
-  
-  #Embedded System
-  <table>
-  <tbody>
-    <tr>
-      <td align="center">문소윤<br />****3377<br/><a href="https://github.com/kookso"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/>
-    </tr>
-  </tbody>
-</table>
+🛠️ **Tools and Technologies:**
 
-  <br>
+![Spring](https://img.shields.io/badge/-Spring-6DB33F?logo=spring&logoColor=white&style=for-the-badge)
+![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?logo=spring&logoColor=white&style=for-the-badge)
+![Java](https://img.shields.io/badge/-Java-F24E1E?logo=java&logoColor=white&style=for-the-badge)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)
+![Amazon S3](https://img.shields.io/badge/-Amazon_S3-569A31?logo=AmazonS3&logoColor=white&style=for-the-badge)
+![Amazon EC2](https://img.shields.io/badge/-Amazon_EC2-FF9900?logo=AmazonEC2&logoColor=white&style=for-the-badge)
 
-  <img src="https://img.shields.io/badge/raspberrypi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white"> 
-  <img src="https://img.shields.io/badge/GPIO-6DB33F?style=for-the-badge&logo=GPIO&logoColor=white"> 
-  <img src="https://img.shields.io/badge/SPI-007396?style=for-the-badge&logo=java&logoColor=white">
-  <br>
-  <img src="https://img.shields.io/badge/opencv-5C3EE8?style=for-the-badge&logo=mysql&logoColor=white"> 
-  <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
-  <br>
-  <br>
-        
-  # AI
-        
-  <table>
-  <tbody>
-    <tr>
-      <td align="center">노지민<br />****1617<br/><a href="https://github.com/Jiminroh"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=black"><a/>
-    </tr>
-  </tbody>
-</table>
+---
 
-  <br>
+### ⚙️ Embedded System
 
-  <img src="https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"> 
-  <img src="https://img.shields.io/badge/torchserve-6DB33F?style=for-the-badge&logo=pytorch&logoColor=white"> 
-  <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-  <br>
-  <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
-  <img src="https://img.shields.io/badge/AmazonEC2-FF9900?style=for-the-badge&logo=AmazonEC2&logoColor=white"> 
-  <br>
-  <br>
-  
+|   Embedded System |
+| :------------: |
+| 문 소윤|
+|  ****3377 |
+| [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/kookso) |
 
-  
-  <br>
+🛠️ **Tools and Technologies:**
 
-  # Collaboration
-  
-  <br>
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-A22846?logo=raspberry-pi&logoColor=white&style=for-the-badge)
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white&style=for-the-badge)
 
-  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <br>
-  <img src="https://img.shields.io/badge/jira-0052CC?style=for-the-badge&logo=jira&logoColor=white">
-  <img src="https://img.shields.io/badge/googlemeet-00897B?style=for-the-badge&logo=googlemeet&logoColor=white">
+---
 
+### 🧠 AI
+
+|   AI  |
+| :------------: |
+| 노 지민 |
+|  ****1617 |
+| [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/Jiminroh) |
+
+🛠️ **Tools and Technologies:**
+
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge)
+![TorchServe](https://img.shields.io/badge/-TorchServe-6DB33F?logo=pytorch&logoColor=white&style=for-the-badge)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![Amazon EC2](https://img.shields.io/badge/-Amazon_EC2-FF9900?logo=AmazonEC2&logoColor=white&style=for-the-badge)
+
+---
+
+### 🤝 Collaboration
+
+![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge)
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge)
+![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=for-the-badge)
+![Google Meet](https://img.shields.io/badge/-Google_Meet-00897B?logo=google-meet&logoColor=white&style=for-the-badge)
 
 </div>
-
- 
