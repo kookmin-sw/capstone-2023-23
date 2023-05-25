@@ -1,5 +1,5 @@
 # 🌿초록이🌿
-[TeamPage Link](https://kookmin-sw.github.io/capstone-2023-23/)
+🌿🌿[TeamPage Link](https://kookmin-sw.github.io/capstone-2023-23/)
 
 ---
 # 프로젝트 소개
