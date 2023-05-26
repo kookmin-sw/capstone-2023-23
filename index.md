@@ -9,12 +9,12 @@
 <h3>이러한 문제를 해결하기 위해 부재 시에도 식물의 특성에 맞는 적정 성장 환경을 유지하고, 실시간으로 식물 상태를 확인 할 수 있는 서비스를 만들었다.</h3>
 
 <hr>
-<h1>Abstract</h1>
-<h3>With the rising interest in plant-based interior design, more and more people are bringing plants into their homes.</h3>
-<h3>However, these plants, which were eagerly introduced, often require more delicate care than expected, making it easy for novice plant caretakers to make mistakes.</h3>
-<h3>Even veteran caretakers worry about leaving their plants alone when they have to leave home for trips or frequent business travel.</h3>
-<h3>To address these issues, we've created a service that maintains an optimal growth environment suited to the plant's characteristics even in the owner's absence, 
-and allows real-time checking of the plant's condition.</h3>
+<h2>Abstract</h2>
+<h4>With the rising interest in plant-based interior design, more and more people are bringing plants into their homes.</h4>
+<h4>However, these plants, which were eagerly introduced, often require more delicate care than expected, making it easy for novice plant caretakers to make mistakes.</h4>
+<h4>Even veteran caretakers worry about leaving their plants alone when they have to leave home for trips or frequent business travel.</h4>
+<h4>To address these issues, we've created a service that maintains an optimal growth environment suited to the plant's characteristics even in the owner's absence, 
+and allows real-time checking of the plant's condition.</h4>
 </div>
 <hr>
   
